@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cjay's Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+    <link rel="shortcut icon" href="pictures/favicon1.jpg" type="image/x-icon" class="icon">
+</head>
+<body>
+    <div id="Calculator">
+        
+        <input type="text" id="display" >
+
+        <div id="keys">
+            <button class="clear-button" onclick="clearDisplay()">C</button>
+            <button class="button" onclick="appenedToDisplay('+')">+</button>
+            <button class="button" onclick="appenedToDisplay('-')">-</button>
+            <button class="button" onclick="appenedToDisplay('*')">x</button>
+            <button onclick="appenedToDisplay('7')">7</button>
+            <button onclick="appenedToDisplay('8')">8</button>
+            <button onclick="appenedToDisplay('9')">9</button>
+            <button class="button" onclick="appenedToDisplay('/')">/</button>
+            <button onclick="appenedToDisplay('4')">4</button>
+            <button onclick="appenedToDisplay('5')">5</button>
+            <button onclick="appenedToDisplay('6')">6</button>
+            <button class="button" onclick="deleteItem()">del</button>
+            <button onclick="appenedToDisplay('1')">1</button>
+            <button onclick="appenedToDisplay('2')">2</button>
+            <button onclick="appenedToDisplay('3')">3</button>
+            <button class="calc-button" onclick="calculate()">=</button>
+            <button onclick="appenedToDisplay('.')">.</button>
+            <button onclick="appenedToDisplay('0')">0</button>
+            
+            
+
+        </div>
+    </div>
+<script src="calc.js"></script>
+</body>
+</html>
